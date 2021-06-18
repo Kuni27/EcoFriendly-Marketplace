@@ -1,72 +1,42 @@
-# ShoppingCart - An amazing website [![HitCount](http://hits.dwyl.io/ikismail/ShoppingCart.svg)](http://hits.dwyl.io/ikismail/ShoppingCart) [![Not Maintained](https://img.shields.io/badge/Maintenance%20Level-Not%20Maintained-yellow.svg)](https://gist.github.com/cheerfulstoic/d107229326a01ff0f333a1d3476e068d)
+# Eco-Kart - A website that deals with selling of only eco friendly products and help everyone contribute to a better planet.
 
-
-We developed an end to end **Ecommerce web Application using Spring MVC** with multiple
+We  have developed  **Ecommerce web Application using Spring MVC** with following functionalities
 modules
-
-## Project is not maintained anymore [here #56](https://github.com/ikismail/ShoppingCart/issues/56#issue-606454548)
 
 ### Functionalities:
 
 1. User Registeration Cell.
 
 2. **CRUD Operations** like
+1. Register the new user.
+2. Adding product to cart.
 
-* User can add product to their cart and purchase summary.
-* Admin can add product to the product list.
-* Admin can edit the product details.
-* Admin can delete the product from the list.
-
-3. **Spring Security**
-
-* User can login into the site.
-* The entire site will change according to the role, depending on whether the client is User or Admin.
-* User can logout after completing.
-
-4. **Spring WebFlow**
-
-* After adding products the cart the User can checkout using spring WebFlow.
-* Confirming User Details.
-* Confirming Shipping and Billing Address.
-* Receipt.
-* If the user cancels the webflow, it will go to cancel Page.
-* If the user submits the checkout, it will go to thank you page with the timing of delivery Report.
 
 ### Tools and Technologies:
 
-* **Technology** : Bootstrap, Java, Spring MVC, Hibernate, JSP, Maven.
-* **Application Servicer**: Apache Tomcat Server.
-* **Database** : H2 Database (In memory database)
+* **Technology** : Bootstrap, Java, Spring MVC, IBM DB2, JSP, Maven.
+* **Application Service**: Apache Tomcat Server.
+* **Database** : IBM DB2 on IBM cloud
 
-### Installation:
+### Tools:
 
 1. Development Platform - Eclipse / IntelliJ Idea
-   * [Download Eclipse](https://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/mars2).
-   * [Download IntelliJ Idea](https://www.jetbrains.com/idea/download/#section=windows).
+  
 2. Server - Apache Tomcat Server
-
-   * [Download Apache Server](https://tomcat.apache.org/download-70.cgi).
 
 3. Build Tool - Maven
 
-   * [Download Maven](https://maven.apache.org/download.cgi).
+4. Database - IBM DB2 available on IBM public cloud.
 
-4. Database - H2 Database
+5. Configuring tomcat with Eclipse (windows) 
 
-   * [Download H2 Database](http://www.h2database.com/html/download.html).
-
-5. Configuring tomcat with Eclipse (windows) - [Click Here](https://javatutorial.net/run-tomcat-from-eclipse).
-
-6. Installation of maven in eclipse - [Click Here](https://stackoverflow.com/questions/8620127/maven-in-eclipse-step-by-step-installation).
+6. Installation of maven in eclipse
 
 7. Clone the repository and import it to eclipse.
-
-8. Run your H2 Database.
 
 9. Configure your databse configuration in **application-context.xml**.
 
    * Database properties:
-
 
         <!-- database properties DataSource -->
 
@@ -78,28 +48,8 @@ modules
               <property name="password" value="YOUR DB PASSWORD" />
             </bean>
 
-      * Database Dialect:
-
-            <prop key="hibernate.dialect">YOUR DB DIALECT</prop>
-
 10. Run the server.
 
-#### Somethings wrong!!
-
-If you find that something's wrong with this package, you can let me know by raising an issue on the GitHub issue tracker, 
-or take it as a task and ðŸ§‘â€�ðŸ’» resolve it ðŸ’ª --> create a PullRequest ðŸ› .
-
-#### Contribution
-
-Contributors are most welcome.
-
-### ScreenShots:
-
-* Home Page:
-
-![Alt text](https://github.com/ikismail/ShoppingCart/blob/master/src/main/webapp/WEB-INF/resource/images/screenshots/Home.jpg "Home Page")
-
-* Contact Us:
-
-![Alt text](https://github.com/ikismail/ShoppingCart/blob/master/src/main/webapp/WEB-INF/resource/images/screenshots/ContactUs.png)
+**Road Map of the project**
+Road Map of the project and Live Demo Recording present in the Power point Presentation.
 
