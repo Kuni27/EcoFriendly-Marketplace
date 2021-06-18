@@ -19,7 +19,7 @@ We  have developed  **Ecommerce web Application using Spring MVC** with followin
 
 ### Tools:
 
-1. Development Platform - Eclipse / IntelliJ Idea
+1. Development Platform - Eclipse
   
 2. Server - Apache Tomcat Server
 
@@ -50,5 +50,5 @@ We  have developed  **Ecommerce web Application using Spring MVC** with followin
 10. Run the server.
 
 **Road Map of the project**
-  Please find the project Road Map and Live Demo Recordin in the Power point Presentation.
+  Please find the project Road Map and Live Demo Recording in the Power point Presentation.
 
