@@ -1,16 +1,14 @@
 # Eco-Kart - A website that deals with selling of only eco friendly products and help everyone contribute to a better planet.
 
 We  have developed  **Ecommerce web Application using Spring MVC** with following functionalities
-modules
 
 ### Functionalities:
 
 1. User Registeration Cell.
 
 2. **CRUD Operations** like
-1. Register the new user.
-2. Adding product to cart.
-
+  . Register the new user.
+  . Adding product to cart.
 
 ### Tools and Technologies:
 
