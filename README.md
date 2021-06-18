@@ -1,6 +1,8 @@
 # Eco-Kart - A website that deals with selling of only eco friendly products and help everyone contribute to a better planet.
 The website mainly aims at collaborating with various cloud service providers and manufacturers of eco-friendly products and provide them a one stop shop to buy the products.
 
+**Note** - Attached the PPT **Nature'sLove_Eco-Kart_WiT2021** at the end of the document.
+
 **Aim-**
 Our goal is to leverage existing infrastructure like data centers which will eliminate/reduce the cost incurred and electricity consumed in establishing those.
 
