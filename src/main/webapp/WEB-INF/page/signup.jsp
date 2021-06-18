@@ -46,7 +46,7 @@
 		   <br><br>
 		   Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <form:input type="password" path="userpwd" minLength="8" maxLength="10" size="35" required="required"/>
 		   <br><br>
-		   <button id = "SUbmitSignup" value = "Signup" style = "background-color : lawnGreen ; margin-left: 22% ; width : 90px; height : 30px" > Go Green</button>
+		   <button id = "SUbmitSignup" value = "Signup" style = "background-color : lawnGreen ; margin-left: 22% ; width : 90px; height : 30px" > SignUp</button>
 <%-- 		   <form:button type="submit" id="submitSignup" value="Signup"  style="margin-left: 22%;width: 90px;background-color: lawngreen;height: 30px;" /> GoGreen --%>
 		   <br><br><br>
 		   </form:form>

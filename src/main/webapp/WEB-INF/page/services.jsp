@@ -28,10 +28,17 @@
 <%@ include file="navbar.jsp"%>
 
 <div>
-	We provide following services:
 	
-	1. Your Trash can be someone's Treasure
-	2. Disposal of unused items to the right place.
+	<h1 style="font-size:60px; color: green">Our Services</h1>
+	<br/>
+	<br/>
+	
+	<h2>- Your Trash can be someone's Treasure.</h2>
+			<h3 style="font-size:20px;"> &nbsp;&nbsp;&nbsp;Call us and we will collect the items that you no longer need and help them reach the needy.</h3>
+	<br/>
+	<h2>- Disposal of unused items to the right place.</h2>
+	<h3 style="font-size:20px;">&nbsp;&nbsp;&nbsp;We help cleaning the environment by collecting the items like expired medicines, damaged electric appliances etc. to
+be disposed at correct &nbsp;&nbsp;&nbsp;place.</h3>
 	
 </div>
 	

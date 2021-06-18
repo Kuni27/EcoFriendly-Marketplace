@@ -18,9 +18,9 @@
 
 <style>
 .button {
-  background-color: #4CAF50; /* Green */
+  background-color: #fff;/* #4CAF50; /* Green */
   border: none;
-  color: green;
+  color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -35,6 +35,13 @@
    background-color: green;
    color: black;
    border: 2px solid #4CAF50; /* Green */
+}
+
+.button2 {
+	font-size: 17px;
+   background-color: white;
+   color: black;
+  /* border: 2px solid #4CAF50; /* Green */
 }
 
 
@@ -114,6 +121,32 @@ form.example::after {
 .sb-example-1 .searchButton i{
   color: #0052cc;
 }
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
 </style>
 <script >
 function getParams(element){
@@ -190,13 +223,20 @@ function getParams(element){
 							class="glyphicon glyphicon-log-in"></span> Login</a></li>
 				</c:if>
 			</ul> --%>
-		
 			
-			<ul class="nav navbar-nav">
+			<ul class="nav navbar-nav" style= "background: #009b00; font-size: 17px; " >
 				<li><a class="button button1" href=" <c:url value="/home" />">Home</a></li>
 				<li><a class="button button1" href=" <c:url value="/aboutus" />">About Us</a></li>
+				<li><a  class="button button1" href=" <c:url value="/contactus" />">Contact Us</a></li>
+				<li><a  class="button button1" href=" <c:url value="/services" />">Services</a></li>
+			
+			<%-- <ul class="nav navbar-nav" style="background: #009b00;">
+				<li><a class="button button2" href=" <c:url value="/home" />">Home</a></li>
+				<li><a class="button button1" href=" <c:url value="/aboutus" />">About Us</a></li>
 				<li><a class="button button1" href=" <c:url value="/contactus" />">Contact Us</a></li>
-				<li><a class="button button1" href=" <c:url value="/services" />">Services</a></li>
+				<li><a class="button button1" href=" <c:url value="/services" />">Services</a></li> --%>
+				
+				
 				<%-- <li><a class="button button1" href=" <c:url value="/searchProducts" />">Search Products</a></li>
 			 --%>	<!-- <li>
 					<form action= "searchProducts"  method="GET">
@@ -208,7 +248,7 @@ function getParams(element){
 		    	<li><a onclick="javascript:getParams(this);return false;" href=" <c:url value="/searchProducts" />"></a></li>
 		    	<li>
 					<form action= "${pageContext.servletContext.contextPath}/searchProducts"  method="GET" >
-						<input class="button search"  type="text" id="name" name="name" >
+						<input class="button search"  type="text" id="name" name="name" placeholder="Search Products.." >
 			    		<!-- <input type ="submit" value="search"> -->
 						<c:if test="${uname==null or empty uname}">
 							<input type="hidden" id="uname" name="uname" value=""/>

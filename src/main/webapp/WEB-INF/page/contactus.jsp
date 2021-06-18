@@ -1,9 +1,13 @@
 <html>
 <head>
+<script src="<c:url value="/resource/js/jquery.js"/>"></script>
+<script src="<c:url value="/resource/bootstrap/js/bootstrap.min.js"/>"></script>
 <style>
-* {
-  box-sizing: border-box;
-}
+
+
+	* {
+	  box-sizing: border-box;
+	}
 
 /* Style inputs */
 input[type=text], select, textarea {
@@ -60,16 +64,20 @@ input[type=submit]:hover {
 </head>
 
 <body>
-<div class="container">
+
+
+
+<div class="container" align="left" style="background-color: cream ">
   <div style="text-align:center">
-    <h2>Contact Us</h2>
-    <p>leave us a message:</p>
+    <h1 style="font-size: 20px;">Contact Us</h1>
+    <p><b>Email:</b> ecokart@gmail.com</p>
+    <p> or<br/><br/> leave us a message:</p>
   </div>
-  <div class="row">
-    <div class="column">
-      <img src="/w3images/map.jpg" style="width:100%">
-    </div>
-    <div class="column">
+  <div class="row" style="width: 100%">
+    <!-- <div class="column">
+    	<img src="contactusImg.jpg" style="width:100%">
+    </div> -->
+    <!-- <div class="column"> -->
       <form action="/ecomarket/thankyou" method="GET">
         <label for="fname">First Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -87,7 +95,7 @@ input[type=submit]:hover {
         <input type="submit" value="Submit">
       </form>
     </div>
-  </div>
+ <!--  </div> -->
 </div>
 </body>
 
