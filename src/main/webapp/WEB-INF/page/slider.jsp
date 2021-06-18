@@ -30,29 +30,32 @@
 				<!-- Wrapper for slides -->
 				<div class="carousel-inner" role="listbox">
 					<div class="item active">
-						<img src="<c:url value="/resource/images/oppo.jpg"/>" alt="Image1"
+						<img src="<c:url value="/resource/images/tree.jpg"/>" alt="Image1"
 							width="460" height="345">
 					</div>
 
 					<div class="item">
-						<img src="<c:url value="/resource/images/oppo1.jpg"/>"
+						<img src="<c:url value="/resource/images/solar.jpg"/>"
 							alt="Image2" width="460" height="345">
 					</div>
 
+
 					<div class="item">
-						<img src="<c:url value="/resource/images/oppo2.jpg"/>"
+						<img src="<c:url value="/resource/images/paper.jpg"/>"
+							alt="Image4" width="460" height="345">
+					</div>
+					
+					<div class="item">
+						<img src="<c:url value="/resource/images/bulb.jpg"/>"
 							alt="Image3" width="460" height="345">
 					</div>
 
 					<div class="item">
-						<img src="<c:url value="/resource/images/oppo3.jpg"/>"
-							alt="Image4" width="460" height="345">
-					</div>
-
-					<div class="item">
-						<img src="<c:url value="/resource/images/oppo4.png"/>"
+						<img src="<c:url value="/resource/images/water.jpg"/>"
 							alt="Image5" width="460" height="345">
 					</div>
+					
+					
 				</div>
 
 				<!-- Left and right controls -->

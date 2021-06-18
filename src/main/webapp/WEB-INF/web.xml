@@ -3,7 +3,7 @@
         "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
         "http://java.sun.com/dtd/web-app_2_3.dtd" >
 <web-app>
-	<display-name>ShopIeasy</display-name>
+	<display-name>ecomarket</display-name>
 
 	<!-- to connect the dispatcher servlet and applicationContext -->
 	<context-param>
@@ -15,7 +15,7 @@
 	</context-param>
 
 	<!-- it is used to listen the Spring Security -->
-	<filter>
+	<!-- <filter>
 		<filter-name>
 			springSecurityFilterChain
 		</filter-name>
@@ -27,7 +27,7 @@
 	<filter-mapping>
 		<filter-name>springSecurityFilterChain</filter-name>
 		<url-pattern>/*</url-pattern>
-	</filter-mapping>
+	</filter-mapping> -->
 
 	<!-- it is used to listen the contextloader -->
 	<listener>

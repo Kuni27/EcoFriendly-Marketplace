@@ -5,8 +5,8 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>ShopIeasy</title>
-<link rel="icon" type="image/x-icon" href="<c:url value="/resource/images/favicon1.png"/>" />
+<title>ecomarket</title>
+<%-- <link rel="icon" type="image/x-icon" href="<c:url value="/resource/images/favicon1.png"/>" /> --%>
 </head>
 <body>
  <%@ include file="WEB-INF/page/navbar.jsp"%> 

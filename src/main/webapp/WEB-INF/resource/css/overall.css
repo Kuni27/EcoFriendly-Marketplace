@@ -43,8 +43,8 @@
 	margin-bottom: -4px;
 }
 .navbar-inverse{
-	background-color:#211935;
-	border-color:#211935;
+	background-color:#ffffff;
+	border-color:#009933;
 }
 
 /* Footer */
@@ -119,6 +119,8 @@
 		line-height: 1.8;
 	}
 }
+
+
 
 /* ProductList */
 
