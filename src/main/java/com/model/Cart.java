@@ -1,22 +1,25 @@
 package com.model;
 
+import javax.persistence.Id;
+
 public class Cart {
 
-	private String cartId;
+	@Id
+	private int cartId;
 	private String productId;
 	private String amazonIFrames;
-	private int quantity;
+	private String quantity;
 	private String userId;
 	/**
 	 * @return the cartId
 	 */
-	public String getCartId() {
+	public int getCartId() {
 		return cartId;
 	}
 	/**
 	 * @param cartId the cartId to set
 	 */
-	public void setCartId(String cartId) {
+	public void setCartId(int cartId) {
 		this.cartId = cartId;
 	}
 	/**
@@ -34,13 +37,13 @@ public class Cart {
 	/**
 	 * @return the quantity
 	 */
-	public int getQuantity() {
+	public String getQuantity() {
 		return quantity;
 	}
 	/**
 	 * @param quantity the quantity to set
 	 */
-	public void setQuantity(int quantity) {
+	public void setQuantity(String quantity) {
 		this.quantity = quantity;
 	}
 	/**

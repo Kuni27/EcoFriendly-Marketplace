@@ -13,6 +13,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.model.Cart;
 import com.model.User;
+import com.service.CartService;
 import com.service.UserDAO;
 
 @Controller
@@ -43,6 +44,9 @@ public class HomeController {
 	@Autowired
 	UserDAO userDAO;
 
+//	@Autowired 
+//	CartService cartService;
+	
 	@RequestMapping({ "/index", "/home" })
 	public ModelAndView sayIndex(@RequestParam(value="uname", required=false) String uname, @RequestParam(value="email", required=false) String email,
 			@RequestParam(value="name", required=false) String name, ModelAndView modelAndView) {
@@ -111,24 +115,26 @@ public class HomeController {
 	public ModelAndView myCart(@RequestParam(value="uname", required=false) String uname, @RequestParam(value="email", required=false) String email,
 			@RequestParam(value="name", required=false) String name, ModelAndView modelAndView) {
 		
-		modelAndView.setViewName("myCart");
+		System.out.println("My cart");
 		modelAndView.getModelMap().addAttribute("uname", uname);
 		modelAndView.getModelMap().addAttribute("email", email);
 		modelAndView.getModelMap().addAttribute("name", name);
+		modelAndView.setViewName("myCart");
 		return modelAndView;
 	}
 	
 	@RequestMapping(value="/addToCart", method = RequestMethod.POST)
 	public ModelAndView addToCart(@RequestParam(value="uname", required=false) String uname, @RequestParam(value="email", required=false) String email,
-			@RequestParam(value="name", required=false) String name, @RequestBody MultiValueMap map, ModelAndView modelAndView) {
+			@RequestParam(value="name", required=false) String name,@RequestBody MultiValueMap map, ModelAndView modelAndView) {
 		System.out.println("entered addToCart step");
 		System.out.println(map.get("addProductName"));
 		modelAndView.setViewName("myCart");
 		System.out.println("adding to DB");
 		Cart cart = new Cart();
-		cart.setQuantity(1);
+		cart.setQuantity("2");
 		cart.setUserId("test");
 		cart.setAmazonIFrames(map.get("addProductName").toString());
+		System.out.print(cart.toString());
 		userDAO.addCart(cart);
 		System.out.println("After adding to DB");
 		modelAndView.getModelMap().addAttribute("uname", uname);
