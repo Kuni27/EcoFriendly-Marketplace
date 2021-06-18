@@ -36,17 +36,18 @@
 	
 	       <h2> Register your details:</h2>
 		   
-		   <form:form action="${pageContext.servletContext.contextPath}/customer/registration" method="post" modelAttribute="userZ">
-		   
-		   Email:&nbsp; <form:input type="email" path="email" size="35" required="required"/>
+		  	<form:form action="${pageContext.servletContext.contextPath}/customer/registration" method="post" modelAttribute="userZ">
+
+		   Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <form:input type="email" path="email" size="35" required="required"/>
 		   <br><br>
-		   First Name:&nbsp; <form:input type="text" path="fname" minLength="2" maxLength="25" size="30" required="required"/>
+		   First Name:&nbsp;&nbsp;&nbsp;&nbsp; <form:input type="text" path="fname" minLength="2" maxLength="25" size="35%" required="required"/>
 		   <br><br>
-		   Last Name:&nbsp; <form:input type="text" path="lname" minLength="2" maxLength="35" size="30" required="required"/>
+		   Last Name:&nbsp;&nbsp;&nbsp;&nbsp; <form:input type="text" path="lname" minLength="2" maxLength="35" size="35" required="required"/>
 		   <br><br>
-		   Password:&nbsp; <form:input type="password" path="userpwd" minLength="8" maxLength="10" size="31" required="required"/>
+		   Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <form:input type="password" path="userpwd" minLength="8" maxLength="10" size="35" required="required"/>
 		   <br><br>
-		   <form:button type="submit" id="submitSignup" value="Signup" style="margin-left: 22%;width: 90px;background-color: lawngreen;height: 30px;" />
+		   <button id = "SUbmitSignup" value = "Signup" style = "background-color : lawnGreen ; margin-left: 22% ; width : 90px; height : 30px" > Go Green</button>
+<%-- 		   <form:button type="submit" id="submitSignup" value="Signup"  style="margin-left: 22%;width: 90px;background-color: lawngreen;height: 30px;" /> GoGreen --%>
 		   <br><br><br>
 		   </form:form>
 	</div>
