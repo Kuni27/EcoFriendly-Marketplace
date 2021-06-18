@@ -1,10 +1,7 @@
 package com.controller;
+
 import java.sql.*;
-
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
-import com.service.CartService;
 
 @Component
 public class CartController {

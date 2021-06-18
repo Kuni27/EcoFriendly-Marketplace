@@ -13,7 +13,6 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.model.Cart;
 import com.model.User;
-import com.service.CartService;
 import com.service.UserDAO;
 
 @Controller
