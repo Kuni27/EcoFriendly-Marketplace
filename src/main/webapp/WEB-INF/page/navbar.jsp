@@ -155,7 +155,7 @@ function getParams(element){
 	reqParams +="?name="+document.getElementById("name").value.trim();
 	reqParams +="&email="+document.getElementById("email").value.trim();
 	reqParams +="&uname="+document.getElementById("uname").value.trim();
-	alert(reqParams);
+	//alert(reqParams);
 	window.location.assign(reqParams);
 	
 }

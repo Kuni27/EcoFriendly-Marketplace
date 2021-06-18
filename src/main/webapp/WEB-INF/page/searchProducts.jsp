@@ -16,18 +16,18 @@
 <script>
 
 function addToCart(id){
-	alert("inside addToCart method");
+	//alert("inside addToCart method");
 	var eleVal = document.getElementById(id).innerHTML;
-	alert("eleVal: "+eleVal);
+	//alert("eleVal: "+eleVal);
 	document.getElementById("addProductId").value= eleVal;
 	var addForm = document.getElementById("addToCartForm");
-	alert("addForm: "+addForm);
-	//var reqParams ="?name="+document.getElementById("name").value.trim();
-	//reqParams +="&email="+document.getElementById("email").value.trim();
-	//reqParams +="&uname="+document.getElementById("uname").value.trim();
+	//alert("addForm: "+addForm);
+	var reqParams ="?name="+document.getElementById("name").value.trim();
+	reqParams +="&email="+document.getElementById("email").value.trim();
+	reqParams +="&uname="+document.getElementById("uname").value.trim();
 	//alert("reqParams:" +reqParams);
-	//addForm.action = addForm.action + reqParams;
-	alert("add form action:" +(addForm.action));
+	addForm.action = addForm.action + reqParams;
+	//alert("add form action:" +(addForm.action));
 	addForm.submit();
 	
 	
