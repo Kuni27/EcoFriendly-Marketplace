@@ -4,11 +4,8 @@ We  have developed  **Ecommerce web Application using Spring MVC** with followin
 
 ### Functionalities:
 
-1. User Registeration Cell.
-
-2. **CRUD Operations** like
-  . Register the new user.
-  . Adding product to cart.
+1. Register the new user.
+2. Adding product to cart.
 
 ### Tools and Technologies:
 
