@@ -57,12 +57,12 @@ public class UserDAO {
 		jdbcTemplate.update(new PreparedStatementCreator() {
 			
 			public PreparedStatement createPreparedStatement(Connection con) throws SQLException {
-				String insertQuery = "INSERT INTO HCART (user_id, amazon_id, quantity) VALUES (?,?,?,?)";
+				String insertQuery = "INSERT INTO HCART (user_id, amazon_id, quantity) VALUES (?,?,?)";
 				PreparedStatement stmt = con.prepareStatement(insertQuery);
 				//stmt.setString(1, addToCart.getCartId());
 				stmt.setString(1, addToCart.getUserId());
 				stmt.setString(2, addToCart.getAmazonIFrames());
-				stmt.setInt(3, addToCart.getQuantity());
+				stmt.setString(3, addToCart.getQuantity());
 				return stmt;
 			}
 			
