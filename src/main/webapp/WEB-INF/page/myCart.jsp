@@ -11,20 +11,23 @@
 <body>
 <div style="color: white; text-align: center; font-size: 30px;">My Cart <i class='fas fa-cart-arrow-down'></i></div>
 
-<h3 class="alert">There is only one Quantity! So click on remove!</h3>
+<!-- <h3 class="alert">There is only one Quantity! So click on remove!</h3>
 
 <h3 class="alert">Quantity  Increased Successfully!</h3>
 
 <h3 class="alert">Quantity  Decreased Successfully!</h3>
 
-<h3 class="alert">Product Successfully Removed!</h3>
+<h3 class="alert">Product Successfully Removed!</h3> -->
 
-<table>
+<h1> Items added to cart.</h1>
+
+<a  href=" <c:url value="/searchProducts" />">Continue Shopping</a>
+<!-- <table>
 <thead>
 
           <tr>
             <th scope="col" style="background-color: yellow;">Total: <i class="fa fa-inr"></i> </th>
-            <th scope="col"><a href="">Proceed to order</a></th>
+            <th scope="col"><a href="/searchProducts.jsp">Proceed to order</a></th>
           </tr>
         </thead>
         <thead>
@@ -52,7 +55,7 @@
           </tr>
 
         </tbody>
-      </table>
+      </table> -->
       <br>
       <br>
       <br>

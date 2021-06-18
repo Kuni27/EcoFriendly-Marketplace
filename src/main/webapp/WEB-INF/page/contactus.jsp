@@ -67,7 +67,10 @@ input[type=submit]:hover {
 
 
 
+
+<a  href="/ecomarket/home" >Home</a>
 <div class="container" align="left" style="background-color: cream ">
+
   <div style="text-align:center">
     <h1 style="font-size: 20px;">Contact Us</h1>
     <p><b>Email:</b> ecokart@gmail.com</p>

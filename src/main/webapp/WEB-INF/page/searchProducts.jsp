@@ -43,9 +43,9 @@ function addToCart(id){
 <!-- Content -->
 	
 	<%
-	    if (request.getParameter("name") == null) {
+	   /*  if (request.getParameter("name") == null) {
 	        //out.println("Please enter your name.");
-	    } else {
+	    } else { */
 	       //out.println("Hello <b>"+request. getParameter("name")+"</b>!");
 	        String ecoText = "eco friendly "+ request. getParameter("name") ;
 	       //out.println("Hello <b>"+ecoText+"</b>!");
@@ -164,13 +164,39 @@ function addToCart(id){
        		<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=qf_sp_asin_til&ad_type=product_link&tracking_id=hmoorthy-21&marketplace=amazon&amp;region=IN&placement=B00791FFD0&asins=B00791FFD0&linkId=1f31793dd616a7a554ca922a3bf424e6&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff"></iframe>
        		<%
 	        }else {%>
-	        
-       		<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=hmoorthy-21&marketplace=amazon&region=IN&placement=B08MD3QK1L&asins=B08MD3QK1L&linkId=0324abb3b3b31937b17d6acb8d4b9a9d&show_border=true&link_opens_in_new_window=true"></iframe>
-       		<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=hmoorthy-21&marketplace=amazon&region=IN&placement=B089NC85G8&asins=B089NC85G8&linkId=63dace5bbd522f9109448f3311808183&show_border=true&link_opens_in_new_window=true"></iframe>
-       		<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=hmoorthy-21&marketplace=amazon&region=IN&placement=B08HV67QP6&asins=B08HV67QP6&linkId=649c2c092f5dc4ae2d9e6ca487af40c0&show_border=true&link_opens_in_new_window=true"></iframe>
- 	        <%
+	        <br/>
+	        <div>
+	        <div style="width:70%;clear:both;padding-bottom:9%;height:270px;">
+					<div id="1frame" style="width:20%;float:left;margin-left:30%;">
+						<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=hmoorthy-21&marketplace=amazon&region=IN&placement=B08MD3QK1L&asins=B08MD3QK1L&linkId=0324abb3b3b31937b17d6acb8d4b9a9d&show_border=true&link_opens_in_new_window=true"></iframe>
+					</div>
+				    <div style="width:20%;float:left;margin-top:6%">
+						 <input  type="button" value="Add To Cart"  onclick="javascript:addToCart('1frame');"/>
+				    </div>
+			</div>
+			
+			 <div style="width:70%;clear:both;padding-bottom:9%;height:270px;">
+					<div id="1frame" style="width:20%;float:left;margin-left:30%;">
+						<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=hmoorthy-21&marketplace=amazon&region=IN&placement=B089NC85G8&asins=B089NC85G8&linkId=63dace5bbd522f9109448f3311808183&show_border=true&link_opens_in_new_window=true"></iframe>
+       				</div>
+       				<div style="width:20%;float:left;margin-top:6%">
+						 <input  type="button" value="Add To Cart"  onclick="javascript:addToCart('1frame');"/>
+				    </div>
+			</div>
+			
+			
+			<div style="width:70%;clear:both;padding-bottom:9%;height:270px;">
+				<div id="1frame" style="width:20%;float:left;margin-left:30%;">
+						<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=hmoorthy-21&marketplace=amazon&region=IN&placement=B08HV67QP6&asins=B08HV67QP6&linkId=649c2c092f5dc4ae2d9e6ca487af40c0&show_border=true&link_opens_in_new_window=true"></iframe>
+ 	        	</div>
+ 	        		<div style="width:20%;float:left;margin-top:6%">
+					 <input  type="button" value="Add To Cart"  onclick="javascript:addToCart('1frame');"/>
+				</div>
+       		</div>
+       		</div>
+       		<%
 	        }
-	    }
+	   /*  } */
 	%>
 	
 	

@@ -46,14 +46,14 @@
 			<br/>
 			<br/>
 			<br/>
-			<div id="para"><p>
+			<div id="para" style="font-size: 20px"><p>
 			Welcome to Eco-Kart
 			Looking for the best-eco friendly products? "Eco-Kart" is here to put a full stop to your search as we provide you a huge range of Eco-friendly products by connecting you directly with the suppliers and with other e-commerce sites . 
 							
 			</p>
 			</div>
 			<br/>
-			<div id="para"><p>
+			<div id="para" style="font-size: 20px"><p>
 			Our Objective  is to provide you sustainable and eco-friendly solutions to your day to day needs and thereby reducing your carbon footprint .We aim to create awareness, provide innovative eco-friendly products to help you make the shift to a greener,
 			more natural lifestyle with ease. 
 			</p></div>
@@ -74,7 +74,7 @@
  				</p>
 			</div> -->
 			
-			<div id="para"><p >
+			<div id="para" style="font-size: 20px"><p >
 				We have a deep fundamental understanding of trust and mutual respect with our clients. 
 				Our extreme commitment to meet our customer satisfaction is the basis of our long-term customer relationships.
 				</p>

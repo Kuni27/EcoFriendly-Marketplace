@@ -185,12 +185,12 @@ function getParams(element){
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">
 		
-			<ul class="nav navbar-nav navbar-right">
+			<ul class="nav navbar-nav navbar-right" >
 			
 				  <c:if test="${uname==null or empty uname}">
-						<li><a class="button button1" href="<c:url value="/customer/signup" />"><span
+						<li><a class="button button1" style= "background: green;" href="<c:url value="/customer/signup" />"><span
 								class="glyphicon glyphicon-log-user"></span> SignUp</a></li>
-						<li><a class="button button1" href="<c:url value="/login" />"><span
+						<li><a class="button button1" style= "background: green;" href="<c:url value="/login" />"><span
 								class="glyphicon glyphicon-log-in"></span> Login</a></li>
 						
 				  </c:if>
@@ -198,14 +198,13 @@ function getParams(element){
 				  
 				  <c:if test="${!empty uname}">
 					
-					
-						<li><a href="<c:url value="/index1" />"><span
+						<li><a class="button button1" style= "background: green;"  href="<c:url value="/index1" />"><span
 								class="glyphicon glyphicon-shopping-user"></span>Welcome, ${uname} </a></li>
 						
-						<li><a href="<c:url value="/myCart" />"><span
+						<li><a class="button button1" style= "background: green;" href="<c:url value="/myCart" />"><span
 								class="glyphicon glyphicon-shopping-cart"></span>My Cart</a></li>
 								
-						<li><a class="button button1" href="<c:url value="/logout" />"><span
+						<li><a class="button button1" style= "background: green;" href="<c:url value="/logout" />"><span
 								class="glyphicon glyphicon-log-in"></span> Logout</a></li>
 					</c:if>
 
@@ -229,6 +228,8 @@ function getParams(element){
 				<li><a class="button button1" href=" <c:url value="/aboutus" />">About Us</a></li>
 				<li><a  class="button button1" href=" <c:url value="/contactus" />">Contact Us</a></li>
 				<li><a  class="button button1" href=" <c:url value="/services" />">Services</a></li>
+				
+				<%-- <li><a  class="button button1" href=" <c:url value="/myCart" />">My Cart</a></li> --%>
 			
 			<%-- <ul class="nav navbar-nav" style="background: #009b00;">
 				<li><a class="button button2" href=" <c:url value="/home" />">Home</a></li>
